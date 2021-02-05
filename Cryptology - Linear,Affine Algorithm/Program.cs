@@ -47,7 +47,7 @@ namespace Cryptology___Linear_Affine_Algorithm
                         Console.Write("Enter the word to be decrypted : ");
                         keyword = Console.ReadLine();
                         String decryptedWord = Decrypt(a, b, keyword);
-                        Console.WriteLine($"Encrypted text : {decryptedWord}");
+                        Console.WriteLine($"Decrypted text : {decryptedWord}");
                         break;
                     default:
                         Console.Write("Plese enter a valid value.");
